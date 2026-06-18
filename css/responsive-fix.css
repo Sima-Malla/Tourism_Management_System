@@ -1,0 +1,70 @@
+/* Responsive Width Fix */
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px !important;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 970px !important;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px !important;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 15px;
+    }
+}
+
+/* Fix for specific elements causing overflow */
+.wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Remove fixed width that causes scrolling */
+.home-detial .col-md-12 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Logo size fix */
+.logo {
+    padding-top: 15px !important;
+}
+
+.logo img {
+    max-height: 40px !important;
+    width: auto !important;
+}
