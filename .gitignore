@@ -1,0 +1,31 @@
+# Database credentials
+connection/connect.php
+admin/db_connect.php
+
+# Uploaded files
+admin/upload/*
+uploads/*
+!admin/upload/.gitkeep
+!uploads/.gitkeep
+
+# XAMPP / PHP logs
+*.log
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.local
+
+# Cache
+*.cache
